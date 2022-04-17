@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #387f75 no-repeat center center/cover;
+  background-image: linear-gradient(-25deg, #1b7f79 0%, #00ccc0 100%);
   color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
@@ -49,33 +49,6 @@ body {
   position: absolute;
   top: -10px;
   left: -10px;
-}
-
-.pointer {
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  display: block;
-}
-
-.pointer-container{
-  position: absolute;
-  top: -40px;
-  left: 140px;
-  width: 20px;
-  height: 190px;
-  animation: rotate 10s linear forwards infinite;
-  transform-origin: bottom center;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .container.grow {
