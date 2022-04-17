@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 
 * {
   box-sizing: border-box;
@@ -79,12 +79,13 @@ body {
 }
 
 button {
-  /* border-radius:0px; */
-  color: black;
-  font-family: 'Playfair Display', serif;
-  background-color: #98e4d9;
-  border-color: #98e4d9;
-  transition: 1000ms ease-in-out;
+  border-radius:60px;
+  color: #9599E2;
+  font-family: 'Oswald';
+  background-color: #d2ddf5;
+  border-color: #d2ddf5;
+  border: 0;
+  transition: 700ms ease-in-out;
 }
 
 .btn-1 {
@@ -95,12 +96,18 @@ button {
   min-height: 40px;
 }
 
-.btn-1:hover {
-  transform: scale(1.3);
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px;
 }
 
 .homeBtn {
   position: absolute;
   top: 1rem;
   left: 1rem;
+  font-size: 1.2em;
+  width: 100px;
+  height: 50px;
+  min-width: 40px;
+  min-height: 20px;
 }

@@ -1,11 +1,11 @@
-
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 
 
 body {
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-font-family: 'Roboto', sans-serif;
-color:#d2ddf5;
-min-height: 1000vh;
+  font-family: 'Oswald', sans-serif;
+  color:#d2ddf5;
+  min-height: 1000vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -13,34 +13,28 @@ min-height: 1000vh;
   margin: 0;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    height: 300px;
-    width: 300px;
-    position: relative;
-  }
+
 
 p {
 background-color: rgba(255, 255, 255, 0);
-display: inline-flex;
+display: flex;
 align-items: center;
 justify-content: center;
-font-size: 50px;
+font-size: 150px;
 margin: 0;
-height: 70px;
-width: 200px;
+height: 100%;
+width: 100%;
+margin-top: 15%;
 }
 
 button {
-  /* border-radius:0px; */
-  color: black;
-  font-family: 'Playfair Display', serif;
-  background-color: #98e4d9;
-  border-color: #98e4d9;
-  transition: 1000ms ease-in-out;
+  border-radius:60px;
+  color: #9599E2;
+  font-family: 'Oswald';
+  background-color: #d2ddf5;
+  border-color: #d2ddf5;
+  border: 0;
+  transition: 700ms ease-in-out;
 }
 
 .btn-1 {
@@ -51,12 +45,18 @@ button {
   min-height: 40px;
 }
 
-.btn-1:hover {
-  transform: scale(1.3);
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px;
 }
 
 .homeBtn {
   position: absolute;
   top: 1rem;
   left: 1rem;
+  font-size: 1.2em;
+  width: 100px;
+  height: 50px;
+  min-width: 40px;
+  min-height: 20px;
 }
