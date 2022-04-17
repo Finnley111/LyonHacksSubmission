@@ -32,9 +32,9 @@ h1:hover {
     text-shadow: 0em 0.3em 0.15em rgba(0, 0, 0, 0.5);
 }
 
-/* .container {
-    display: flex;
-} */
+.forest {
+    color:#000000;
+}
 
 button {
     border-radius:60px;
@@ -63,6 +63,11 @@ button:hover {
     position: absolute;
     top: 1rem;
     left: 1rem;
+    font-size: 1.2em;
+    width: 100px;
+    height: 50px;
+    min-width: 40px;
+    min-height: 20px;
 }
 
 #birds {
