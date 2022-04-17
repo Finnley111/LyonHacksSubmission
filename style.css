@@ -1,11 +1,14 @@
 body {
+    /* --def: #96B7C4;
+    --inv: #fff; */
+    background-image: linear-gradient(-25deg, #1b7f79 0%, #00ccc0 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-color: #387f75;
+    background-color: #00ccc0;
 }
 
 #mainTitle {
@@ -16,8 +19,8 @@ body {
 h1 {
     font-size: 9rem;
     color:#98e4d9;
-    letter-spacing: 1.1rem;
-    font-family: 'Playfair Display', serif;
+    /* letter-spacing: 1.1rem; */
+    font-family: 'Oswald';
     transition: 1000ms ease-in-out;
 }
 
@@ -26,12 +29,17 @@ h1:hover {
     text-shadow: 0em 0.3em 0.15em rgba(0, 0, 0, 0.5);
 }
 
+/* .container {
+    display: flex;
+} */
+
 button {
-    /* border-radius:0px; */
-    color: black;
-    font-family: 'Playfair Display', serif;
+    border-radius:60px;
+    color: #1b7f79;
+    font-family: 'Oswald';
     background-color: #98e4d9;
     border-color: #98e4d9;
+    border: 0;
     transition: 1000ms ease-in-out;
 }
 
@@ -43,12 +51,28 @@ button {
     min-height: 40px;
 }
 
-.btn-1:hover {
-    transform: scale(1.3);
+button:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 10px;
 }
 
 .homeBtn {
     position: absolute;
     top: 1rem;
     left: 1rem;
+}
+
+#birds {
+    background: url(birds5.gif);
+    background-size: cover;
+}
+
+#rain {
+    background: url(rain.gif);
+    background-size: cover;
+}
+
+#forest {
+    background: url(forest.gif);
+    background-size: cover;
 }
