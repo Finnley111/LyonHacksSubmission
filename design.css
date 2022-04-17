@@ -52,11 +52,11 @@ body {
   left: -10px;
 }
 
-.container.grow {
-  animation: grow 4s linear forwards;
+.container.expand {
+  animation: expand 4s linear forwards;
 }
 
-@keyframes grow {
+@keyframes expand {
   from {
     transform: scale(1);
   }
@@ -65,11 +65,11 @@ body {
   }
 }
 
-.container.shrink {
-  animation: shrink 4s linear forwards;
+.container.reduce {
+  animation: reduce 4s linear forwards;
 }
 
-@keyframes shrink {
+@keyframes reduce {
   from {
     transform: scale(1.2);
   }
